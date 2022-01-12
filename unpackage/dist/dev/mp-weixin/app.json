@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/customerService/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pageA",
+      "pages": [
+        "mine/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#9a9a9a",
+    "selectedColor": "#03AF91",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/images/icon_home_noChoose.png",
+        "selectedIconPath": "static/images/icon_home_choose.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/customerService/index",
+        "iconPath": "static/images/icon_kf_nochoose.png",
+        "selectedIconPath": "static/images/icon_kf_choose.png",
+        "text": "客服"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/images/icon_mine_nochoose.png",
+        "selectedIconPath": "static/images/icon_mine_choose.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
